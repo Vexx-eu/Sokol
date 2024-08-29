@@ -174,7 +174,7 @@ ul li {
 
 .pricing-item {
     background-color: #ffffff;
-    padding: 20px;
+    padding: 15px;
 
     width: 300px;
 }
@@ -295,18 +295,21 @@ footer {
     font-size: 0.9em;
 }
 @media (max-width: 900px) {
+    .logo{
+        display: none;
+    }
     body{
         margin-top: 0;
     }
     header{
-        height: 260px;
+        height: 80px;
         position: relative;
     }
     .logo{
         align-self: center;
     }
     section{
-        margin: 10px;
+        margin: 20px 10px;
     }
     nav {
         flex-direction: column;
@@ -316,9 +319,8 @@ form{
     align-items: center;
 }
     .navigace {
-        display: flex;
-        flex-direction: column;
         width: 100%;
+        justify-content: center;
     }
     .split-left{
         width: 80%;
@@ -372,7 +374,6 @@ form{
         padding: 5px;
     }
     nav a {
-        font-size: 16px;
         padding: 5px 0;
     }
     form{
