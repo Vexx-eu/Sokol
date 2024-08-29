@@ -378,6 +378,9 @@ form{
     nav {
         padding: 5px;
     }
+    .cenik{
+        padding: 0;
+    }
     nav a {
         padding: 5px 0;
     }
